@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: lab3-budikov
+    working_dir: /app
+    volumes:
+      - ./branch.json:/app/branch.json
+    stdin_open: true
+    tty: true
+    restart: "no"

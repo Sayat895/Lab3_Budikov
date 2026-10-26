@@ -95,29 +95,34 @@
       "full_name": "Абдураимова Молдир",
       "position": "Кассир ночной",
       "role": "Сотрудник"
+    },
+    "emp_test": {
+      "full_name": "Test User",
+      "position": "Cashier",
+      "role": "Employee"
     }
   },
   "shift_reports": {
     "rep_101": {
       "date": "2026-10-22",
-      "employee_id": "emp_9",
+      "employee_id": "emp_8",
       "surplus": 0.0,
-      "shortage": 2600.0,
+      "shortage": 323.0,
       "status": "Недостача"
     },
     "rep_102": {
       "date": "2026-10-22",
-      "employee_id": "emp_2",
-      "surplus": 232.0,
+      "employee_id": "emp_14",
+      "surplus": 0.0,
       "shortage": 0.0,
-      "status": "Излишек"
+      "status": "Без отклонений"
     },
     "rep_103": {
       "date": "2026-10-22",
-      "employee_id": "emp_14",
+      "employee_id": "emp_4",
       "surplus": 0.0,
-      "shortage": 500.0,
-      "status": "Недостача"
+      "shortage": 0.0,
+      "status": "Без отклонений"
     }
   }
 }
